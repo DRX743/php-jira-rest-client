@@ -38,6 +38,8 @@ class IssueSearchResult
      */
     public $issues;
 
+    /** @var array */
+    public $names;
     /**
      * @return int
      */

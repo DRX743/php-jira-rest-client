@@ -13,6 +13,12 @@ class Transition implements \JsonSerializable
     /** @var string */
     public $name;
 
+    /** @var string */
+    public $description;
+
+    /** @var string */
+    public $opsbarSequence;
+
     /** @var \JiraRestApi\Issue\TransitionTo */
     public $to;
 
